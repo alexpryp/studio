@@ -132,3 +132,38 @@ h1 {
 .works img:last-child {
 	float: right;
 }
+
+#about {
+
+}
+.history {
+	margin-top: 70px;
+}
+.photo {
+	width: 183px;
+	padding: 0;
+}
+.description {
+	width: 373px;
+	padding: 0px 40px;
+}
+.description h3{
+	margin: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.description p{
+	font-size: 14px;
+	color: #777;
+}
+.left__description, .left__photo {
+	float: left;
+	text-align: right;
+}
+.right__description, .right__photo {
+	float: right;
+}
+.history__item {
+	width: 930px;
+	margin-bottom: 90px;
+}
