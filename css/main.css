@@ -44,6 +44,9 @@ nav {
 	text-transform: uppercase;
 	font-size: 14px;
 }
+.menu li a:hover {
+	color: #fed136;
+}
 .titles__first {
 	font-size: 40px;
 	color: #fff;
@@ -72,6 +75,9 @@ h1 {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 18px;
+}
+.button:hover {
+	background: #d1a100;
 }
 .title {
 	padding-top: 115px;
@@ -132,10 +138,6 @@ h1 {
 .works img:last-child {
 	float: right;
 }
-
-#about {
-
-}
 .history {
 	margin-top: 70px;
 }
@@ -152,6 +154,9 @@ h1 {
 	font-size: 18px;
 	font-weight: bold;
 }
+.description h3:nth-child(1) {
+	text-transform: uppercase;
+}
 .description p{
 	font-size: 14px;
 	color: #777;
@@ -166,4 +171,10 @@ h1 {
 .history__item {
 	width: 930px;
 	margin-bottom: 90px;
+}
+footer p {
+	text-align: center;
+	margin-bottom: 110px;
+	font-size: 14px;
+	color: #777;
 }
